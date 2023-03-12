@@ -15,7 +15,7 @@
         "index.js"
       ],
       "repositories": {
-        "mayukorin/LP-intro-2": {
+        "LP-intro-2": {
           "permissions": "write-all"
         }
       }
