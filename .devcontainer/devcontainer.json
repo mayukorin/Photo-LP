@@ -13,7 +13,14 @@
     "codespaces": {
       "openFiles": [
         "index.js"
-      ]
+      ],
+      "repositories": {
+        "mayukorin/LP-intro-2": {
+          "permissions": {
+            "actions": "write"
+          }
+        }
+      }
     }
   },
   "portsAttributes": {
