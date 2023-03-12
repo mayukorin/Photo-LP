@@ -16,9 +16,7 @@
       ],
       "repositories": {
         "mayukorin/LP-intro-2": {
-          "permissions": {
-            "actions": "write"
-          }
+          "permissions": "write-all"
         }
       }
     }
