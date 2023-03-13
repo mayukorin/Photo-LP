@@ -8,6 +8,12 @@ body {
     background-color: #f4f9ff;
 }
 
+.title {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
 /* ヘッダー */
 header {
     margin-top: 40px;
@@ -49,4 +55,58 @@ li {
 
 .detail-container img {
     width: 50%;
+    margin-right: 40px;
+}
+
+.detail-text {
+    width: 50%;
+}
+
+.detail-text h3 {
+    padding-bottom: 10px;
+    border-bottom:solid;
+}
+
+.more-detail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+.detail-text a {
+    color: black;
+}
+
+.all-text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* レスポンシブ */
+
+@media screen and (max-width: 1024px) {
+    .detail-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-container img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .detail-text {
+        width: 100%;
+    }
+
+    .more-detail {
+        justify-content: start;
+    }
+
+    .more-detail .head {
+        margin-right: 50px;
+    }
 }
