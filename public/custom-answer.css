@@ -1,0 +1,14 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f4f9ff;
+    color: #333;
+    font-size: 0.875rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
