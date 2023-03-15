@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/answer', (req, res) => {
+  res.sendFile(__dirname + '/public/index-answer.html')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
