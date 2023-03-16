@@ -117,3 +117,26 @@ img {
 #detail .content .link:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+    .inner {
+        padding: 0 40px;
+    }
+
+    #header {
+        padding: 0 10px;
+    }
+
+    #mainvisual {
+        padding: 0 10px;
+    }
+
+    #detail .content {
+        flex-direction: column;
+    }
+
+    #detail .content .img {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+}
