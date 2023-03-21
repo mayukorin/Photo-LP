@@ -17,6 +17,11 @@ app.get('/photo-book2', (req, res) => {
   res.sendFile(__dirname + '/public/photo-book2.html')
 })
 
+app.get('/photo-book2-answer', (req, res) => {
+  res.sendFile(__dirname + '/public/photo-book2-answer.html')
+})
+
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
